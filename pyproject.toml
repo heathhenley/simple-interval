@@ -16,7 +16,7 @@ explicit = true
 
 [project]
 name = "simple-interval"
-version = "0.1.2"
+version = "0.1.3"
 description = "Using Python threading to run a function at a specific interval. This implementation is very similar to the implemention of threading.Timer in Python - just runs on an interval instead of single time."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -25,6 +25,11 @@ license = "MIT"
 authors = [
     { name="Heath Henley", email="heath.j.henley@gmail.com" },
 ]
+[project.urls]
+"Homepage" = "https://github.com/heathhenley/simple-interval"
+"Repository" = "https://github.com/heathhenley/simple-interval"
+"Issues" = "https://github.com/heathhenley/simple-interval/issues"
+
 
 [dependency-groups]
 dev = [
